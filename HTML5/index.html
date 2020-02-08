@@ -2,26 +2,103 @@
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>HTML5</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HTML5</title>
 </head>
 
 <body>
- <!-- To jest komentarz -->
- <!-- Elementy liniowe i blokowe -->
- <a href="">linki</a>
- <a href="">linki</a>
- <a href="">linki</a>
- <span>span jest liniowy</span>
- <p>Lorem ipsum dolor sit amet.</p>
- <div>to jest div</div>
- <ul>
-  <li>elementy listy są blokowe</li>
-  <li>elementy listy są blokowe</li>
-  <li>elementy listy są blokowe</li>
-  <li>elementy listy są blokowe</li>
- </ul>
+   <!-- To jest komentarz -->
+   <!-- Elementy liniowe i blokowe -->
+   <a href="">linki</a>
+   <a href="">linki</a>
+   <a href="">linki</a>
+   <span>span jest liniowy</span>
+   <p>Lorem ipsum dolor sit amet.</p>
+   <div>to jest div</div>
+   <ul>
+      <li>elementy listy są blokowe</li>
+      <li>elementy listy są blokowe</li>
+      <li>elementy listy są blokowe</li>
+      <li>elementy listy są blokowe</li>
+   </ul>
+
+   <!-- odnośniki -->
+   <a href="https://akademia108.pl">link zewnętrzny do Akademii</a>
+   <a href="#sekcja">link do miejsca na stronie</a>
+   <a href="mailto:kursy@akademia.pl">kursy@akademia108</a>
+   <a href="podstrony/kontakt.html" target="_blank">link do podstrony</a>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <section id="sekcja">treść seksji</section>
+   <!-- Tabele -->
+   <table>
+      <thead>
+         <tr>
+            <th>Produkt</th>
+            <th>ilość </th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>kawa</td>
+            <td>3</td>
+         </tr>
+         <tr>
+            <td>herbata</td>
+            <td>8</td>
+         </tr>
+      </tbody>
+      <tfoot>
+         <tr>
+            <td>razem</td>
+            <td>11</td>
+         </tr>
+      </tfoot>
+   </table>
+
+   <!--  Formularze -->
+   <form action="">
+      <label for="name">Imię:</label>
+      <input type="text" name="name" id="name" placeholder="Imię"><br>
+      <input type="email" placeholder="email" disabled><br>
+      <input type="number" name="quanity" value="2"><br>
+      <input type="checkbox" name="agreement" id="agreement">
+      <label for="agreement">Wyrażam zgodę na...</label>
+      <br>
+      <label><input type="radio" name="gender">Kobieta</label><br>
+      <label><input type="radio" name="gender">Mężczyzna</label><br>
+
+      <select name="cities">
+         <option value="warszawa">Warszawa</option>
+         <option value="warszawa">Gdańsk</option>
+         <option value="warszawa">Wrocław</option>
+      </select>
+      <br>
+      <textarea name="msg" placeholder="Co cię trapi?" cols="30" rows="10"></textarea> <br>
+      <input type="submit" value="Wyślij">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+   </form>
+
 </body>
 
 </html>
