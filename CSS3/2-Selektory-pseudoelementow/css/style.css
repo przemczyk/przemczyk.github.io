@@ -1,0 +1,11 @@
+#pierwszy::before {
+    content: "Dodatkowa trećś przed paragrafem";
+    color: royalblue;
+    background-color: tan;
+}
+
+#drugi::after {
+    content: "Treść za drugim paragrafem";
+    color: teal;
+    background-color: violet;
+}
