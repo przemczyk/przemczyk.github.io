@@ -1,0 +1,28 @@
+#send:hover {
+    background-color: teal;
+}
+
+#name:focus {
+    border: 3px solid blueviolet;
+    background-color: burlywood;
+}
+
+.customer {
+    color: coral;
+}
+
+.customer:nth-child(5) {
+    color: darkgreen;
+}
+
+.customer:nth-last-child(1) {
+    color: darkblue;
+}
+
+.customer:nth-of-type(3) {
+    background-color: darkred;
+}
+
+.customer:nth-child(2n + 1) {
+    background-color: khaki;
+}
