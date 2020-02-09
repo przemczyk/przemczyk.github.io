@@ -1,0 +1,24 @@
+.wrap {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #a6a9b6;
+    border: 10px solid #666360;
+}
+
+.sq1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #ff912e;
+    top: 50%;
+}
+
+
+.sq2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #e4e4e4;
+    left: 50%;
+}
