@@ -1,0 +1,23 @@
+[title] {
+    color: lawngreen;
+}
+
+[title="Main page"] {
+    color: black;
+}
+
+[title~="me"] {
+    color: lightcoral;
+}
+
+[title*="Con"] {
+    color: lightskyblue;
+}
+
+[title^="Section"] {
+    background-color: maroon;
+}
+
+[title$="skills"] {
+    color: midnightblue;
+}
