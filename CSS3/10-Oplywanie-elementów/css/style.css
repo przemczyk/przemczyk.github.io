@@ -1,0 +1,17 @@
+#strawberry {
+    float: left;
+    margin: 10px;
+}
+
+#strawberry2 {
+    float: right;
+}
+
+/* #strawberry {
+    float: none;
+} */
+
+p:last-child {
+    background-color: moccasin;
+    clear: both;
+}
