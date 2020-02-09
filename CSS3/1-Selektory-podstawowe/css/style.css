@@ -1,0 +1,36 @@
+body {
+    background-color: bisque;
+}
+
+/* * {
+    color: blue;
+} */
+
+p {
+    color: red;
+}
+
+#kasia {
+    background-color: yellow;
+}
+
+div.lorak {
+    color: darkturquoise;
+}
+
+a>span {
+    background-color: dimgray;
+}
+
+ul li a {
+    color: forestgreen;
+}
+
+
+li#pierwszy~li {
+    background-color: indigo;
+}
+
+li#pierwszy+li {
+    background-color: hotpink;
+}
