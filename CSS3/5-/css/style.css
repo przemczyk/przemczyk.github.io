@@ -1,0 +1,15 @@
+p {
+    background-color: peru !important;
+}
+
+p#paragraph {
+    background-color: rgb(71, 249, 255);
+}
+
+p.paragraph {
+    background-color: tomato;
+}
+
+p {
+    background-color: olivedrab;
+}
