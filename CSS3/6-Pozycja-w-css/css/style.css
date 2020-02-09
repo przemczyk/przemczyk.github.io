@@ -1,0 +1,42 @@
+#static {
+    width: 400px;
+    height: 150px;
+    background-color: darkorange;
+}
+
+#relative {
+    position: relative;
+    width: 600px;
+    height: 450px;
+    background-color: darkorchid;
+    top: 50px;
+    left: 50px;
+}
+
+#absolute {
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    background-color: darkred;
+    top: 100px;
+    left: 50px;
+}
+
+#fixed {
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    top: 400px;
+    left: 200px;
+    background-color: forestgreen;
+    /* z-index: -1; */
+
+}
+
+#sticky {
+    position: sticky;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    background-color: indianred;
+}
