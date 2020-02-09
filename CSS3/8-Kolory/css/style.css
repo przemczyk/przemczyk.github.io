@@ -1,0 +1,31 @@
+body {
+    background-color: khaki;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: lavender;
+
+}
+
+#predefined-colors {
+    background-color: lightcoral;
+}
+
+#hexadecimal-colors {
+    background-color: #138fda;
+}
+
+#short-hexadecimal-colors {
+    background-color: #fdf;
+}
+
+#rgb-function {
+    background-color: rgb(200, 154, 233);
+}
+
+#rgba-function {
+    background-color: rgba(242, 9, 33, 0.1);
+}
