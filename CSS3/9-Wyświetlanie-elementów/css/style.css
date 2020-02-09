@@ -1,0 +1,32 @@
+#p1 {
+    background-color: lightgreen;
+}
+
+#p2 {
+    background-color: lightslategray;
+}
+
+#inline-elements p {
+    display: inline;
+}
+
+#inline-p1 {
+    background-color: magenta;
+}
+
+#inline-p2 {
+    background-color: yellow;
+}
+
+#inline-block-elements li {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    background-color: mediumblue;
+}
+
+#display-none {
+    display: none;
+}
