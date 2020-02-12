@@ -2,13 +2,59 @@
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
- <p>Zadanie 2</p>
+    <form action="https://formspree.io/przemek.abramowicz7@gmail.com" method="POST">
+
+        <label for="name">Imię</label>
+        <input type="text" name="name" id="name">
+        <br>
+
+        <label for="surname">Nazwisko</label>
+        <input type="text" name="surname" id="surname">
+        <br>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="_replyto" id="mail">
+        <br>
+
+        <label for="phone">Telefon: </label>
+        <input type="tel" name="phone" id="phone">
+        <br>
+        <br>
+        <label for="city">Wybierz miasto : </label>
+        <select name="city" id="city">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select>
+        <br>
+
+        <p>Wybierz płeć:</p>
+        <input type="radio" name="gender" value="male" id="male"><label for="male">Mężczyzna</label>
+        <br>
+
+        <input type="radio" name="gender" value="female" id="female"><label for="female">Kobieta</label>
+        <br>
+        <br>
+        <input type="checkbox" id="agreement" name="agreement"><label for="agreement">Wyrażam zgodę na przetwarzanie
+            danych osobowych</label>
+        <br>
+
+        <br>
+        <label for="message">Wiadomość: </label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <br>
+
+        <input type="submit" value="Send">
+
+
+    </form>
 </body>
 
 </html>
