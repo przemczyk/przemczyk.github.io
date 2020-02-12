@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    position: relative;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    background-color: bisque;
+}
+
+.square {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    background-color: blue;
+}
+
+.wheel {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 25%;
+    left: 25%;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+div:nth-child(2) {
+    right: 200px;
+    top: 0;
+    background-color: rgb(83, 0, 55);
+}
+
+div:nth-child(3) {
+    right: 0;
+    top: 0;
+    background-color: rgb(34, 25, 43);
+}
+
+div:nth-child(4) {
+    right: 0;
+    top: 200px;
+    background-color: rgb(66, 33, 35);
+}
+
+div:nth-child(5) {
+    right: 0;
+    top: 400px;
+    background-color: chartreuse;
+}
+
+div:nth-child(6) {
+    right: 200px;
+    top: 400px;
+    background-color: rgb(233, 16, 16);
+}
+
+div:nth-child(7) {
+    left: 0;
+    bottom: 0;
+    background-color: hotpink;
+}
+
+div:nth-child(8) {
+    left: 0;
+    top: 200px;
+    background-color: rgb(165, 137, 14);
+}
+
+div:nth-child(9) {
+    right: 200px;
+    top: 200px;
+    background-color: mediumpurple;
+}
+
+
+div:nth-child(2)>.wheel {
+    background-color: cadetblue;
+}
+
+div:nth-child(3)>.wheel {
+    background-color: mediumseagreen;
+}
+
+div:nth-child(4)>.wheel {
+    background-color: rgb(93, 34, 148);
+}
+
+div:nth-child(5)>.wheel {
+    background-color: rgb(245, 245, 245);
+}
+
+div:nth-child(6)>.wheel {
+    background-color: navy;
+}
+
+div:nth-child(7)>.wheel {
+    background-color: orangered;
+}
+
+div:nth-child(8)>.wheel {
+    background-color: yellow;
+}
+
+div:nth-child(9)>.wheel {
+    background-color: cyan;
+}
