@@ -1,0 +1,23 @@
+.flex-item {
+    background-color: cadetblue;
+    font-family: "lato", sans-serif;
+    color: darkblue;
+    border: 1px solid brown;
+    padding: 10px;
+    margin: 5px;
+    flex-basis: 10%;
+    max-width: 200px;
+}
+
+.flex-item:nth-last-of-type(odd) {
+    background-color: darkgoldenrod;
+    flex-basis: 20%;
+}
+
+.container {
+    display: flex;
+    border: 2px dashed green;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+}
