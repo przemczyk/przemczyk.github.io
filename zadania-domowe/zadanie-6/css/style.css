@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+div.odliczanie {
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    margin-top: 25%;
+    margin-left: 25%;
+    text-align: center;
+    font-size: 100px;
+}
+
+div.liczba,
+.tekst {
+    position: absolute;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+}
+
+.dziesiec {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+}
+
+.dziewiec {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+.osiem {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+.siedem {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 3s;
+}
+
+.szesc {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 4s;
+}
+
+.piec {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 5s;
+}
+
+.cztery {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 6s;
+}
+
+.trzy {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 7s;
+}
+
+.dwa {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 8s;
+}
+
+.jeden {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 9s;
+}
+
+.tekst {
+    animation-name: napis;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+
+}
+
+@keyframes odliczanie {
+    0% {
+        visibility: hidden;
+    }
+
+    50% {
+        visibility: visible;
+    }
+
+    100% {
+        visibility: hidden;
+    }
+
+}
+
+@keyframes napis {
+    0% {
+        visibility: hidden;
+    }
+
+    100% {
+        visibility: visible;
+    }
+}
