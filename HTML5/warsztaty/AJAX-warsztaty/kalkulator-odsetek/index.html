@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Wprowadź dane</h1>
+    <form action="calculator">
+        <label for=""> Wpłata w PLN: <input type="number" name="" id="wplata"></label>
+        <select name="" id="kapital">
+            <p>Częstotliwość kapitalizacji : </p>
+            <option value="12">Rocznie</option>
+            <option value="3">Kwartalnie</option>
+            <option value="1">Miesięcznie</option>
+        </select>
+        <label for="">Liczba rat: <input type="number" id="rata"></label>
+        <label for="">Stopa zwrotu w % : <input type="number" name="" id="oprocentowanie"></label>
+
+
+        <input type="submit" value="Oblicz" id="button">
+
+    </form>
+    <span id="wynik"></span>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

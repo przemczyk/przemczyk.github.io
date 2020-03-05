@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form id="pizza-order" action="">
+
+        <input type=" text" name="name" id="name" placeholder="Imie">
+        <input type="text" name="surname" id="surname" placeholder="Nazwisko">
+        <input type="text" name="street" id="street" placeholder="Ulica">
+        <input type="text" name="flatNr" id="flatNr" placeholder="Numer domu">
+        <input type="text" name="postalCode" id="postalCode" placeholder="Kod pocztowy">
+        <input type="text" name="city" id="city" placeholder="Miasto">
+
+        <select name="kindOfPizza" id="pizza">
+            <option value="">-- Wybierz pizze --</option>
+            <option value="1">Margerita</option>
+            <option value="2">Pepperoni</option>
+            <option value="3">Salami</option>
+            <option value="4">Diablo</option>
+            <option value="5">Hawajska</option>
+        </select>
+
+        <span id="price">0 PLN</span>
+
+        <label for="sos"><br>
+            Wybierz sos :
+            <input type="checkbox" id="tomato-sauce"> <label for="">Sos pomidorowy</label>
+            <input type="checkbox" id="garlic-sauce"> <label for="">Sos czosnkowy</label>
+        </label>
+
+        <label for="">
+            <input type="checkbox" id="agree"><label for="">Wyrażam zgodęna przetwarzanie danych osobowych na potrzeby
+                realizacji
+                zamówienia.</label>
+        </label>
+        <input type="submit" value="Zamów" id="button">
+
+        <ul id="errors"></ul>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
